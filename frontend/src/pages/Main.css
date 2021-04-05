@@ -1,0 +1,24 @@
+/* INDEX */
+
+h1{
+    font-family: Almarai;
+    color: var(--white);
+    margin: 0;
+    margin-top: 20px;
+    font-size: 98px;
+    letter-spacing: 15px;
+}
+
+h3{
+    font-family: Josefin;
+    font-weight: lighter;
+    color: var(--white);
+    margin: 0;
+    margin-top: 17px;
+    font-size: 27px;
+    letter-spacing: 4px;
+}
+
+.index-img{
+    margin: 0;
+}

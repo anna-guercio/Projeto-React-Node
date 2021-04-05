@@ -1,0 +1,146 @@
+:root{
+    --black: #192020;
+    --dark-grey: #353636;
+    --white: #FFF;
+}
+
+@font-face {
+	font-family: Almarai;
+	src: local(Almarai), url(../fonts/almarai.ttf)
+}
+
+@font-face {
+	font-family: Josefin;
+	src: local(Josefin), url(../fonts/JosefinSans-VariableFont_wght.ttf)
+}
+
+*{
+    background-color: var(--black);
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding-top: 45px;
+    text-align: center;
+}
+
+.botao{
+    color: var(--black);
+    background-color: var(--white);
+    width: 188px;
+    height: 45px;
+    font-family: Josefin;
+    font-size: 27px;
+    font-weight: bolder;
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+    letter-spacing: 2px;
+}
+
+.botao:hover{
+    background-color:var(--dark-grey);
+    color: var(--white);
+    font-weight: lighter;
+}
+
+/* INDEX */
+/* INDEX */
+/* INDEX */
+
+h1{
+    font-family: Almarai;
+    color: var(--white);
+    margin: 0;
+    margin-top: 20px;
+    font-size: 98px;
+    letter-spacing: 15px;
+}
+
+h3{
+    font-family: Josefin;
+    font-weight: lighter;
+    color: var(--white);
+    margin: 0;
+    margin-top: 17px;
+    font-size: 27px;
+    letter-spacing: 4px;
+}
+
+.index-img{
+    margin: 0;
+}
+
+/* CADASTRO */
+/* CADASTRO */
+/* CADASTRO */
+
+.form-cadastro{
+    width: 100%;
+    height: 100%;
+    color: var(--white);
+    font-family: Josefin;
+    letter-spacing: 4px;
+    margin: unset;
+margin-left: 50px;
+}
+
+.cadastro-img{
+    height: 155px;
+    width: 330px;
+}
+
+.form-cadastro p{
+    width: 50%;
+    background-color: none;
+    margin: unset;
+    float: left;
+    font-size: 18px;
+    text-align: left;
+}
+
+.form-cadastro input{
+    height: 35px;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    float: left;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: var(--dark-grey);
+    padding-left: 20px;
+    font-family: Josefin;
+}
+
+.bloco{
+    margin-top: 30px;
+    height: 60px;
+    padding: 10px;
+    padding-left: 10px;
+    width: 1032px;
+}
+
+.bloco-esq{
+    width: 50%;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.bloco-dir{
+    width: 25%;
+    margin-top: 10px;
+}
+
+.bloco-3{
+    width: 80%;
+    margin-top: 10px;
+}
+
+#nome, #cpf{
+    width: 572px;
+}
+
+#idade, #tel{
+    width: 100px;
+}

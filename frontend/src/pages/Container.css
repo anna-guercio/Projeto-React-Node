@@ -1,0 +1,47 @@
+:root{
+    --black: #192020;
+    --dark-grey: #353636;
+    --white: #FFF;
+}
+
+@font-face {
+	font-family: Almarai;
+	src: local(Almarai), url(../fonts/almarai.ttf)
+}
+
+@font-face {
+	font-family: Josefin;
+	src: local(Josefin), url(../fonts/JosefinSans-VariableFont_wght.ttf)
+}
+
+*{
+    background-color: var(--black);
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding-top: 45px;
+    text-align: center;
+}
+
+.botao{
+    color: var(--black);
+    background-color: var(--white);
+    width: 188px;
+    height: 45px;
+    font-family: Josefin;
+    font-size: 27px;
+    font-weight: bolder;
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+    letter-spacing: 2px;
+}
+
+.botao:hover{
+    background-color:var(--dark-grey);
+    color: var(--white);
+    font-weight: lighter;
+}
