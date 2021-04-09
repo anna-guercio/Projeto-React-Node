@@ -1,4 +1,10 @@
 /* INDEX */
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding-top: 45px;
+    text-align: center;
+}
 
 h1{
     font-family: Almarai;

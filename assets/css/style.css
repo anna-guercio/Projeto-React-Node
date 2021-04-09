@@ -137,10 +137,275 @@ margin-left: 50px;
     margin-top: 10px;
 }
 
-#nome, #cpf{
+.bloco #nome, .bloco #cpf{
     width: 572px;
 }
 
-#idade, #tel{
+.bloco #idade, .bloco #tel{
     width: 100px;
+}
+
+/* LISTAGEM */
+/* LISTAGEM */
+/* LISTAGEM */
+
+/* nav */
+.nav{
+    margin: 0;
+    width: 600px;
+    height: 100px;
+    float: left;
+}
+
+.nav-img{
+    float: left;
+    height: 100px;
+    width: 210px;
+}
+
+.plus-img{
+    float: right;
+    height: 50px;
+    width: 50px;
+    margin-top: 25px;
+}
+
+/* bloco user */
+.bloco-user{
+    margin: 0;
+    float: left;
+    margin-top: 30px;
+    width: 580px;
+    height: 420px;
+    padding: 10px;
+}
+
+.bloco-user p{
+    margin: 0;
+    text-align: left;
+    letter-spacing: 2px;
+    color: var(--white);
+    font-weight: lighter;
+    padding-left: 20px;
+    font-family: Josefin;
+    margin-bottom: 10px;
+}
+
+#titulo{
+    margin: 0;
+    width: 550px;
+    font-size: 15px;
+}
+
+#info-user{
+    height: 30px;
+    width: 550px;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    padding-top: 15px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.bloco-user .botao{
+    font-size: 24px;
+    width: 134px;
+    height: 35px;
+    margin-right: 45px;
+    padding: 0;
+    padding-top: 5px;
+    margin-bottom: 50px;
+}
+
+/* lista */
+
+.lista{
+    background-color: var(--dark-grey);
+    border-radius: 5px;
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 340px;
+    height: 440px;
+    float: left;
+}
+
+.buscar{
+    background-color: var(--white);
+    margin: 15px;
+    width: 280px;
+    height: 50px;
+    text-align: left;
+    letter-spacing: 2px;
+    color: var(--dark-grey);
+    font-family: Josefin;
+    border-radius: 5px;
+margin-left: 27px;
+}
+
+.buscar img{
+    background-color:var(--white);
+    float: left;
+    margin: 0;
+    height: 30px;
+    width: 30px;
+    margin: 4px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.buscar p{
+    background-color: var(--white);
+    float: left;
+    margin: 4px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* usuarios */
+
+.usuarios{
+    background-color: var(--black);
+    color: var(--white);
+    margin: 15px;
+    width: 280px;
+    height: 65px;
+    letter-spacing: 2px;
+    font-family: Josefin;
+    border-radius: 5px;
+margin-left: 27px;
+flex-direction: column;
+}
+
+.usuarios p{
+    float: left;
+margin: 0;
+margin-top: 10px;
+margin-left: 10px;
+font-size: 14px;
+}
+
+/* editar */
+/* editar */
+/* editar */
+
+.form-edit{
+    width: 100%;
+    height: 100%;
+    color: var(--white);
+    font-family: Josefin;
+    letter-spacing: 4px;
+    margin: unset;
+    margin-left: 50px;
+}
+
+.edit-img{
+    height: 155px;
+    width: 330px;
+}
+
+.form-edit p{
+    width: 50%;
+    background-color: none;
+    margin: unset;
+    float: left;
+    font-size: 18px;
+    text-align: left;
+}
+
+.bloco-edit{
+    margin-top: 30px;
+    height: 60px;
+    padding: 10px;
+    padding-left: 10px;
+    width: 1032px;
+}
+
+#user-edit1, #user-edit2, #user-edit3{
+    color: white;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+#user-edit1{
+    width: 450px;
+    margin-right: 47px;
+}
+
+#user-edit2{
+    width: 250px;
+}
+
+#user-edit3{
+    width: 765px;
+    margin-right: 700px;
+}
+
+/* excluir */
+/* excluir */
+/* excluir */
+
+.form-exclui{
+    width: 100%;
+    height: 100%;
+    color: var(--white);
+    font-family: Josefin;
+    letter-spacing: 4px;
+    margin: unset;
+    margin-left: 50px;
+}
+
+.exclui-img{
+    height: 155px;
+    width: 330px;
+}
+
+.form-exclui p{
+    width: 50%;
+    background-color: none;
+    margin: unset;
+    float: left;
+    font-size: 18px;
+    text-align: left;
+}
+
+.bloco-exclui{
+    margin-top: 30px;
+    height: 60px;
+    padding: 10px;
+    padding-left: 10px;
+    width: 1032px;
+}
+
+#user-exclui1, #user-exclui2, #user-exclui3{
+    color: white;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+#user-exclui1{
+    width: 450px;
+    margin-right: 47px;
+}
+
+#user-exclui2{
+    width: 250px;
+}
+
+#user-exclui3{
+    width: 765px;
+    margin-right: 700px;
+}
+
+#btn-excluir{
+    width: 270px;
 }

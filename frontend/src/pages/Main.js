@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import './Main.css';
 import './Container.css';
 
@@ -11,7 +13,7 @@ export default function Main(){
         <img src={logo} alt="" className="index-img" />
         <h1>Bem vindo</h1>
         <h3>Entre em nossa página e realize o seu cadastro</h3>
-        <button className="botao" type="submit">Entrar</button>
+        <Link to="/cadastro"><button className="botao" type="submit">Entrar</button></Link>
         </form>
     </div>
     );

@@ -4,6 +4,13 @@
     --white: #FFF;
 }
 
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding-top: 45px;
+    text-align: center;
+}
+
 @font-face {
 	font-family: Almarai;
 	src: local(Almarai), url(../fonts/almarai.ttf)
@@ -16,13 +23,6 @@
 
 *{
     background-color: var(--black);
-}
-
-.container {
-    max-width: 980px;
-    margin: 0 auto;
-    padding-top: 45px;
-    text-align: center;
 }
 
 .botao{
@@ -44,4 +44,10 @@
     background-color:var(--dark-grey);
     color: var(--white);
     font-weight: lighter;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
